@@ -8,3 +8,4 @@ version          "0.0.1"
 depends 'apt', '~> 1.2.0'
 
 recipe "misc::apt_upgrade", "Run apt-get upgrade"
+recipe "misc::ssh_firewall", "Setup firewall runs for SSH"
